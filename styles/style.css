@@ -1,0 +1,238 @@
+/* import font */
+
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vaizr.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: vazirBold;
+    src: url('../fonts/vazir-bold.eot');
+    src: url('../fonts/vazir-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir-bold.woff2') format('woff2'), url('../fonts/vazir-bold.woff') format('woff'), url('../fonts/vazir-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+/*  */
+a {
+    text-decoration: none;
+}
+
+.swiper img {
+    width: 100%;
+}
+
+.title-section {
+    font-family: var(--bold-font);
+}
+
+.div-title-section svg {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.more svg {
+    margin-right: 10px;
+}
+
+.more {
+    color: #3e1ffa;
+}
+
+/* root */
+
+:root {
+    --normal-font: vazirNormal;
+    --bold-font: vazirBold;
+}
+
+body {
+    direction: rtl;
+    font-family: var(--normal-font) !important;
+}
+
+/* Header */
+
+header {
+    height: 600px;
+    background-image: url("../image/banner-header.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header .search {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    border: none;
+}
+
+header .search input {
+    border-radius: 50px;
+    width: 100%;
+    color: #787775;
+    border: none;
+    padding: 15px 30px;
+}
+
+header .search svg {
+    background-color: rgb(255, 255, 255);
+    color: #494a48;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    padding: 18px;
+    box-sizing: border-box !important;
+}
+
+header .categorys span {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 1px solid #e5e6e4;
+    border-radius: 50px;
+    color: #797877;
+    font-size: 12px;
+    padding: 4px 8px;
+    font-family: var(--bold-font);
+}
+
+/* Header bottom */
+
+#header-bottom {
+
+    margin-top: -170px;
+}
+
+#header-bottom img {
+    width: 100%;
+}
+
+#header-bottom a {
+    text-decoration: none;
+}
+
+#header-bottom a div {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    box-sizing: border-box !important;
+    border: 1px solid #ffffff;
+    font-family: var(--bold-font);
+}
+
+#header-bottom .models h6 {
+    font-family: var(--bold-font);
+}
+
+#header-bottom .models p {
+    font-size: .75rem;
+    color: #494a48;
+}
+
+#header-bottom .price {
+    font-family: var(--bold-font);
+    color: #1f1f1e;
+}
+
+#header-bottom .price-range {
+    font-size: .875rem;
+    color: #494a48;
+}
+
+
+#header-bottom .all-car {
+    background-color: #befa00;
+    color: #1f1f1e;
+    padding: 15px 0;
+    border-radius: 50px;
+    box-sizing: border-box !important;
+    border: 2px solid #ffffff;
+}
+
+#header-bottom .all-car:hover {
+    background-color: #afe600;
+}
+
+
+#header-bottom .all-car svg {
+    margin-left: 5px;
+}
+
+/* Popular models */
+
+/* #popular-models svg {
+    margin-right: 10px;
+}
+
+#popular-models .more {
+    color: #3e1ffa;
+} */
+
+/* Price & specifications */
+
+#price-specifications {}
+
+#price-specifications .car-price {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#price-specifications .car-price svg {
+    height: 48px;
+}
+
+#price-specifications .car-price .model {
+    background-color: #ffffff;
+    font-size: .75rem;
+    color: #1f1f1e;
+}
+
+#price-specifications .car-price .price svg.swing {
+    color: red;
+    width: 13px;
+}
+
+#price-specifications .car-price .price svg.toman {
+    width: 30px;
+}
+
+/* News */
+#news .news-card {
+    position: relative;
+}
+
+#news .col-lg-6 .descriptionn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    width: 50%;
+}
+
+#news .news-card img {
+    width: 100%;
+}
+
+#news .news-card {
+    background-color: #ffffff;
+}
+
+#news .news-time {
+    color: #787775;
+    font-size: .75rem;
+}
+
+/* Footer */
+
+footer svg{
+    color: #616161;
+}
+
+footer span{
+    color: #acadac;
+    font-size: .625rem;
+}
